@@ -107,9 +107,6 @@
             // initializing page transition.
             var ptPage = $('.subpages');
             if (ptPage[0]) {
-                PageTransitions.init({
-                    menu: 'ul.site-main-menu',
-                });
             }
 
             customScroll();
@@ -123,9 +120,6 @@
 
     // On Document Load
     $(document).on('ready', function() {
-        // Template Demo Panel
-        demoPanel;
-
         // Initialize Portfolio grid
         var $portfolio_container = $("#portfolio_grid");
 
