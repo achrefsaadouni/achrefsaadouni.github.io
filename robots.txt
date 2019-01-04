@@ -3,4 +3,10 @@ Disallow: /*.jpg$
 Disallow: /*.png$
 Disallow: /*.gif$
 Disallow: /images/
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /preview/
+Disallow: /css/
+Disallow: /404/
+Allow:  /
 Sitemap: https://achrefsaadouni.me/sitemap.xml
